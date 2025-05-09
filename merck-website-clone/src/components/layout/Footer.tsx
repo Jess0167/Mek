@@ -3,47 +3,18 @@ import type React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-white pt-10">
-      {/* Social links */}
+      {/* Contact information */}
       <div className="bg-[#00635B] py-8 text-white">
         <div className="mx-auto w-full max-w-[1400px] px-6 lg:px-12">
           <div className="mb-6">
-            <h3 className="text-xl font-medium">Connect with us on social</h3>
+            <h3 className="text-xl font-medium">Contact Us</h3>
           </div>
-          <div className="flex gap-6">
-            <a href="https://twitter.com/Merck" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <img
-                src="https://ext.same-assets.com/999953051/3062387783.svg"
-                alt="Twitter"
-                className="h-6 w-6"
-              />
+          <div className="flex flex-col gap-4 text-sm">
+            <a href="tel:+12674222974" className="hover:text-gray-200">
+              Phone: +1(267) 422-2974
             </a>
-            <a href="https://www.facebook.com/MerckInvents" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <img
-                src="https://ext.same-assets.com/999953051/574650459.svg"
-                alt="Facebook"
-                className="h-6 w-6"
-              />
-            </a>
-            <a href="https://www.linkedin.com/company/merck" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <img
-                src="https://ext.same-assets.com/999953051/575792041.svg"
-                alt="LinkedIn"
-                className="h-6 w-6"
-              />
-            </a>
-            <a href="https://www.instagram.com/merck" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <img
-                src="https://ext.same-assets.com/999953051/202238032.svg"
-                alt="Instagram"
-                className="h-6 w-6"
-              />
-            </a>
-            <a href="https://www.youtube.com/user/Merck" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-              <img
-                src="https://ext.same-assets.com/999953051/3068075271.svg"
-                alt="YouTube"
-                className="h-6 w-6"
-              />
+            <a href="mailto:info@mercck.com" className="hover:text-gray-200">
+              Email: info@mercck.com
             </a>
           </div>
         </div>
