@@ -54,13 +54,13 @@ const Header: React.FC = () => {
 
         {/* Search and Menu Buttons */}
         <div className="flex items-center gap-4 bg-[#00635B] px-4 py-2 rounded-md">
-            {/* Search button */}
-            <button className="flex items-center gap-2 md:gap-3 hover:opacity-80 transition-opacity">
-              <svg className="h-5 w-5 md:h-6 md:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-              <span className="text-sm md:text-base font-medium text-white">Search everything</span>
-            </button>
+          {/* Search button */}
+          <button className="flex items-center gap-2 md:gap-3 hover:opacity-80 transition-opacity">
+            <svg className="h-5 w-5 md:h-6 md:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <span className="hidden md:inline text-sm md:text-base font-medium text-white">Search everything</span>
+          </button>
           <button
             className="flex items-center gap-1 md:gap-2 hover:opacity-80 transition-opacity"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -86,8 +86,6 @@ const Header: React.FC = () => {
           </button>
         </div>
       </div>
-
-      
 
       {/* Dropdown menu with animation */}
       <AnimatePresence>
@@ -129,9 +127,7 @@ const Header: React.FC = () => {
                     >
                       Company
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'company' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'company' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -235,9 +231,7 @@ const Header: React.FC = () => {
                     >
                       Research
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'research' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'research' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -328,9 +322,7 @@ const Header: React.FC = () => {
                     >
                       Products
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'products' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'products' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -382,9 +374,7 @@ const Header: React.FC = () => {
                     >
                       Patients
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'patients' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'patients' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -436,9 +426,7 @@ const Header: React.FC = () => {
                     >
                       Investors
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'investors' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'investors' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -529,9 +517,7 @@ const Header: React.FC = () => {
                     >
                       Media
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'media' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'media' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -583,9 +569,7 @@ const Header: React.FC = () => {
                     >
                       Careers
                       <svg
-                        className={`h-5 w-5 text-[#00635B] transform transition-transform duration-200 ${
-                          openSection === 'careers' ? 'rotate-90' : ''
-                        }`}
+                        className={"h-5 w-5 text-[#00635B] transform transition-transform duration-200" + (openSection === 'careers' ? ' rotate-90' : '')}
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
