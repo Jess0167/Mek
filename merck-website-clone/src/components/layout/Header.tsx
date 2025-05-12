@@ -53,7 +53,7 @@ const Header: React.FC = () => {
         </NavLink>
 
         {/* Search and Menu Buttons */}
-        <div className="flex items-center gap-4 bg-[#00635B] px-8 py-7 rounded-md">
+        <div className="flex items-center gap-4 bg-[#00635B] px-10 py-7 rounded-md">
           {/* Search button */}
           <button className="flex items-center gap-2 md:gap-3 hover:opacity-80 transition-opacity">
             <svg className="h-5 w-5 md:h-6 md:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
