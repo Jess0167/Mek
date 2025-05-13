@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-medium">Contact Us</h3>
           </div>
           <div className="flex flex-col gap-4 text-sm">
-            <a href="tel:+12674222974" className="hover:text-gray-200">
-              Phone: 1-267-422-2974
+            <a href="tel:+13146494713" className="hover:text-gray-200">
+              Phone: 1-314-649-4713
             </a>
             <a href="mailto:info@mercck.com" className="hover:text-gray-200">
               Email: info@mercck.com
