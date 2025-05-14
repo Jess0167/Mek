@@ -13,8 +13,8 @@ const Footer: React.FC = () => {
             <a href="tel:+13146494713" className="hover:text-gray-200">
               Phone: 1-314-649-4713
             </a>
-            <a href="mailto:info@mercck.com" className="hover:text-gray-200">
-              Email: info@mercck.com
+            <a href="mailto:admin@mercck.com" className="hover:text-gray-200">
+              Email: admin@mercck.com
             </a>
           </div>
         </div>
